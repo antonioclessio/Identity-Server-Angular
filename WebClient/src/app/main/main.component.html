@@ -1,0 +1,9 @@
+<button (click)="chamadaAPI()">API Call</button>
+<button (click)="chamadaAPIRole()">API Call With Role</button>
+<pre>
+  {{ dataResponse }}
+</pre>
+<hr />
+<pre>
+  {{ identity$ | async | json }}
+</pre>
